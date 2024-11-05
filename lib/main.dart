@@ -82,7 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
         inputImage.metadata!.rotation,
         _cameraLensDirection,
       );
-      _customPaint = CustomPaint(painter: painter,);
+      _customPaint = CustomPaint(painter: painter);
     } else {
       String text = '바코드 탐색: ${barcodes.length}개 \n';
 
